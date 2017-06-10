@@ -1,0 +1,2 @@
+# crepebot
+Discord Public Bot
