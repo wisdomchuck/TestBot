@@ -1,4 +1,5 @@
 discord.py
+opuslib
 youtube-dl
 colorlog
 asyncio
