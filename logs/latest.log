@@ -1,0 +1,12 @@
+06-07-2017 20:55:33 [Command] [322165185739751424/Wisdom#@!] [194137807042641920/ThorinAxe#7806]: *thonk
+06-07-2017 21:09:27 [Command] [322165185739751424/Wisdom#@!] [194137807042641920/ThorinAxe#7806]: *help
+06-07-2017 21:10:34 [Command] [Private Message] [194137807042641920/ThorinAxe#7806]: *stats
+06-07-2017 21:11:47 [Command] [322165185739751424/Wisdom#@!] [194137807042641920/ThorinAxe#7806]: *boi
+06-07-2017 21:13:05 [Command] [322165185739751424/Wisdom#@!] [194137807042641920/ThorinAxe#7806]: *config
+06-07-2017 21:13:05 [ERROR] An error occured while executing the config command: type is a required argument that is missing.
+06-07-2017 21:13:23 [Command] [322165185739751424/Wisdom#@!] [194137807042641920/ThorinAxe#7806]: *config mod-role
+06-07-2017 21:13:23 [ERROR] An error occured while executing the config command: value is a required argument that is missing.
+06-07-2017 21:13:49 [Command] [322165185739751424/Wisdom#@!] [194137807042641920/ThorinAxe#7806]: *config enable-ranking
+06-07-2017 21:13:49 [ERROR] An error occured while executing the config command: value is a required argument that is missing.
+06-07-2017 21:13:56 [Command] [322165185739751424/Wisdom#@!] [194137807042641920/ThorinAxe#7806]: *config enable-ranking true
+06-07-2017 21:25:39 [INFO] Reconnected to discord!
