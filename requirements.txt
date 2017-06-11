@@ -1,6 +1,5 @@
-discord.py
 opuslib
-libopus
+discord.py
 youtube-dl
 colorlog
 asyncio
