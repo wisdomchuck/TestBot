@@ -36,7 +36,7 @@ channel_logger = Channel_Logger(bot)
 aiosession = aiohttp.ClientSession(loop=bot.loop)
 lock_status = config.lock_status
 
-extensions = ["commands.fun", "commands.information", "commands.moderation", "commands.configuration", "commands.rwby", "commands.nsfw", "commands.reactions", "commands.economy", "commands.ranking"]
+extensions = ["commands.fun", "commands.information", "commands.moderation", "commands.configuration", "commands.music", "commands.rwby", "commands.nsfw", "commands.reactions", "commands.economy", "commands.ranking"]
 
 # Thy changelog
 change_log = [
@@ -68,7 +68,7 @@ async def _restart_bot():
     except:
        pass
     await bot.logout()
-    subprocess.call([sys.executable, "bot.py"])
+    subprocess.call([sys.executable, "app.py"])
 
 async def _shutdown_bot():
     try:
