@@ -1,6 +1,6 @@
-libopusenc
 discord.py
 youtube-dl
+opuslib
 colorlog
 asyncio
 cffi
