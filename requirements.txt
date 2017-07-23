@@ -1,7 +1,5 @@
-pip>=9.0.1
 discord.py
 youtube-dl
-opus
 colorlog
 asyncio
 cffi
