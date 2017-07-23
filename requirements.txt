@@ -1,4 +1,4 @@
-opuslib
+libopusenc
 discord.py
 youtube-dl
 colorlog
