@@ -1,6 +1,6 @@
 discord.py
 youtube-dl
-opuslib
+opus
 colorlog
 asyncio
 cffi
