@@ -1,0 +1,4 @@
+#/bin/bash
+
+# change execution bit for static images.
+chmod 755 /opt/app-root/src/bin/*
