@@ -5,4 +5,6 @@ python -V > /dev/null 2>&1 || {
 	echo >&2 "If you have python 3.5, use it to run bot.py instead of this script."
 	exit 1; }
 
+sed "s/Token =/Token = $token/" config/config.ini > config/config.ini
+
 python app.py
