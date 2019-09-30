@@ -47,7 +47,8 @@ class Config:
         if sections:
             log.critical("Could not load a section in the config file, please obtain a new config file from the github repo if regenerating the config doesn't work!")
             os._exit(1)
-        self._token = config.get("Credentials", "Token", fallback=Defaults.token)
+        self._token = config.get(
+            "Credentials", "Token", fallback=os.environ['token'])
         self._dbots_token = config.get("Credentials", "Dbots_Token", fallback=Defaults.dbots_token)
         self._carbonitex_key = config.get("Credentials", "Carbonitex_Key", fallback=Defaults.carbonitex_key)
         self.owner_id = config.get("Bot", "Owner_ID", fallback=Defaults.owner_id)
