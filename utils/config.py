@@ -5,7 +5,7 @@ import shutil
 from utils.logger import log
 
 class Defaults:
-    token = None
+    token = os.environ['token']
     dbots_token = None
     carbonitex_key = None
     owner_id = None
