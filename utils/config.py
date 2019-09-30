@@ -47,8 +47,7 @@ class Config:
         if sections:
             log.critical("Could not load a section in the config file, please obtain a new config file from the github repo if regenerating the config doesn't work!")
             os._exit(1)
-        self._token = config.get(
-            "Credentials", "Token", fallback=os.environ['token'])
+        self._token = config.get("Credentials", "Token", fallback=Defaults.token)
         self._dbots_token = config.get("Credentials", "Dbots_Token", fallback=Defaults.dbots_token)
         self._carbonitex_key = config.get("Credentials", "Carbonitex_Key", fallback=Defaults.carbonitex_key)
         self.owner_id = config.get("Bot", "Owner_ID", fallback=Defaults.owner_id)
@@ -73,8 +72,8 @@ class Config:
 
     def check(self):
         if not self._token:
-            log.critical("No token was specified in the config, please put your bot's token in the config. Using Default")
-            
+            log.critical("No token was specified in the config, please put your bot's token in the config.")
+            os._exit(1)
 
         if not self.owner_id:
             log.critical("No owner ID was specified in the config, please put your ID for the owner ID in the config")
