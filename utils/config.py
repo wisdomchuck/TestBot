@@ -72,8 +72,8 @@ class Config:
 
     def check(self):
         if not self._token:
-            log.critical("No token was specified in the config, please put your bot's token in the config.")
-            os._exit(1)
+            log.critical("No token was specified in the config, please put your bot's token in the config. Using Default")
+            
 
         if not self.owner_id:
             log.critical("No owner ID was specified in the config, please put your ID for the owner ID in the config")
