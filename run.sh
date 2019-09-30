@@ -6,6 +6,6 @@ python -V > /dev/null 2>&1 || {
 	exit 1; }
 
 sed "s/Token =/Token = $token/" config/config.ini > config/config.ini.new
-mv config.ini.new config.ini
+mv config/config.ini.new config/config.ini
 
 python app.py
